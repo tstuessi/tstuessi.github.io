@@ -1,0 +1,65 @@
+/* Style Sheet */
+
+#h h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#h p {
+	color: white;
+	font-size: 15px;
+}
+
+@media (min-width:600px) {
+	#h h1 {
+		font-size: 75px;
+	}
+
+	#h p {
+		font-size: 30px;
+	}
+}
+
+#h a {
+	color: green;
+}
+
+.centered {text-align: center;}
+.vertical-center {
+	height: 100%;
+	width: 100%;
+
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
+
+.not-grayscale {
+	filter: grayscale(0%);
+}
+
+#h {
+	background: url("https://images.unsplash.com/photo-1440635592348-167b1b30296f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=370477211fd6605e597e0d1e9534d99e") no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
