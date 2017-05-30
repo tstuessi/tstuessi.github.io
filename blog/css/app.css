@@ -228,6 +228,9 @@ main.post {
     color: #5badf0; }
   .page li {
     margin-left: 15px; }
+  .page img[alt=drawing] {
+    height: 50%;
+    width: 50%; }
 
 .sharing {
   margin: 90px 0;
