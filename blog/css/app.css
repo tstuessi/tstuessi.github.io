@@ -229,8 +229,11 @@ main.post {
   .page li {
     margin-left: 15px; }
   .page img[alt=drawing] {
-    height: 50%;
-    width: 50%; }
+    display: block;
+    max-height: 50%;
+    max-width: 50%;
+    height: auto;
+    width: auto; }
 
 .sharing {
   margin: 90px 0;
